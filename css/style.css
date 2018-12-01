@@ -1,0 +1,61 @@
+#page-top #contact {
+      background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.obereg {
+
+    background: url(../img/ua2.jpg);
+}
+.ua-cook {
+
+    background: url(../img/ua4.jpg);    
+}
+.zvych {
+
+    background: url(../img/ua3.jpg);    
+}
+.p2{
+    background: white;
+    padding: 15px;
+    margin: 0 auto;
+box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.75);
+}
+.heading-st {
+       background: linear-gradient(135deg, rgba(73,155,234,1) 0%,rgba(21,71,153,1) 100%);
+    border-left: 5px gold solid;
+	color: #f1f1f1;
+    margin: 0 auto;
+    margin-top: 5%;
+	position: relative;
+	text-align: center;
+	font-size: 72px;
+	letter-spacing: 2px;
+    padding: 10px;
+box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.75);
+}
+.hoverable {
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+
+}
+.hoverable:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+box-shadow: 0px 2px 19px 3px rgba(0,0,0,0.75);
+  z-index: 5;
+}
+@media (max-width: 767px){
+    .row .heading-st{
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
